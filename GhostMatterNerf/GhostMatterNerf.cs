@@ -1,8 +1,4 @@
-﻿using OWML.Common;
-using OWML.ModHelper;
-using System.Collections;
-using System.Diagnostics;
-using UnityEngine;
+﻿using OWML.ModHelper;
 
 namespace GhostMatterNerf
 {
@@ -10,8 +6,10 @@ namespace GhostMatterNerf
     {
         private void Update()
         {
-            
-         Locator.GetPlayerController()._hazardDetector._darkMatterDamagePerSecond = 1;        
+            if (Locator.GetPlayerController())
+            {
+                Locator.GetPlayerController()._hazardDetector._darkMatterDamagePerSecond = 0;
+            }
         }
     }
 }

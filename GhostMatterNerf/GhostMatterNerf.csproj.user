@@ -1,5 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\Raicuparta.GhostMatterNerf</OutputPath>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\Kentin.GhostMatterNerf</OutputPath>
   </PropertyGroup>
 </Project>
